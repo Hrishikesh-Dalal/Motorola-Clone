@@ -1,0 +1,373 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    border: border box;
+}
+/* Header */
+.header{
+    background-color: #001428;
+    height: 141px;
+    position: fixed;
+}
+.main_bar{
+    padding: 12px;
+    height: 100px;
+    width: 100%;
+    background-color: #001428;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 12x;
+    /* border: white 2px solid; */
+
+}
+.moto_logo{
+    background-image: url(Motorola_logo_white.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #001428;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    /* border: white 2px solid; */
+    width: 120px;
+    height: 25px;
+}
+.search_bar{
+    width: 520px;
+    height: 38px;
+    border-radius: 5px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe i{
+    width: 22px;
+    height: 16px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe_text{
+    padding-left: 12px;
+    font-size: 12px;
+}
+.support{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.support i{
+    width: 22px;
+    height: 16px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.support_text{
+    padding-left: 12px;
+    font-size: 12px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login i{
+    font-size: 27px;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+.hello_text{
+    padding-left: 34px;
+    font-size: 10px;
+}
+.login_text{
+    padding-left: 12px;
+    font-size: 12px;
+}
+.cart i{
+    font-size: 27px;
+}
+.cart a{
+    text-decoration: none;
+    padding-left: 12px;
+    color: white;
+}
+/* sites bar */
+.site_bar{
+    height: 41px;
+    background-color: #001428;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.all_menu_site{
+    display: flex;
+    align-content: center;
+    justify-content: left;
+    margin-left: 16px;
+}
+.all_menu{
+    display: flex;
+    align-content: center;
+    justify-content: center; 
+    width: 80;
+}
+.text_extra{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    color: lightcoral;
+    width: 204px;
+
+}
+.text_extra p{
+    padding-right: 5px;
+    font-size: 12px;
+}
+.All{
+    padding-left: 6px;
+}
+.other_sites{
+    width: 1010px;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.other_sites a{
+    text-decoration: none;
+    color: white;
+}
+/* hero section */
+
+.hero_image_text{
+    display: flex;
+    align-items: center;
+    height: 447px;
+    
+
+}
+.hero_image{
+    width: 50%;
+    height: 447px;
+    background-image: url(Edge\ \ 30\ images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.Moto_edge30_logo{
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+}
+
+.hero_text{
+    width: 49%;
+    height: 447px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    /* display: block; */
+    background-color: black;
+    color: white;
+}
+.hero_logo{
+    /* padding: 100%; */
+    margin-left: 133px;
+    width: 100%;
+    display: flex;
+    align-items: self-start;
+}
+.buy_now{
+    width: 150px;
+    height:36px;
+     margin: 0.5rem;
+     border: 3px white solid;
+     border-radius: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buy_now a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* Other Section */
+.opt_bar input{
+    text-decoration: none;
+    color: #82c1e9;
+    width: 250px;
+    height: 56px;
+    background-color: rgb(68, 68, 68,0.6);
+    background-color: #0b1e32;
+    border: none;
+    background-blend-mode: lighten;
+}
+.opt_bar input:hover{
+    color: white;
+    background-color: #192b3e;
+}
+.opt_bar{
+    padding-top: 18px;
+    height: 57px;
+    background-color: #001428;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.opt{
+    width: 250px;
+    height: 56px;
+    /* background-color: #0b1e32; */
+    /* border: 2px white solid; */
+    /* background-color: ; */
+}
+/* Other Options */
+.phones{
+    height: 525px;
+    width: 30%;
+    background-color: #0b1e32;
+    /* border: 0.5px white solid; */
+    padding: 26px 8px 6px;
+    margin: 0px 9px 9px ;
+    margin-top: 30px;
+}
+.big_opt{
+    width: 100%;
+    height: 650px;
+    background-color: #001428;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+}
+/* Phone */
+.phone_text{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.shop_now a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    /* font-weight: bold; */
+}
+.shop_now{
+    width: 150px;
+    height:30px;
+     margin: 0.5rem;
+     border: 1px white solid;
+     border-radius: 50px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.phone_img{
+    width: 340px;
+    height: 340px;
+    
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-left: 45px;
+    margin: -15px 0px 0px;
+    /* display: flex; */
+    /* align-items: flex-end; */
+}
+.phone_name{
+    padding-bottom: 10px;
+}
+.second_text{
+    padding-bottom: 10px;
+}
+/* two images */
+.first_image{
+    height: 343px;
+    width: 50%;
+    background-image: url(Full\ HD\ TV.webp);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.second_image{
+    height: 343px;
+    width: 50%;
+    background-image: url(Pump\ up\ the\ power\ \(2\).webp);
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+.two_images{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #001428;
+    display: flex;
+
+}
+/* trending now */
+.trending_now_head{
+    font-size: 25px;
+    font-family: 'Gothic A1', sans-serif;
+    background-color: #001428;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    color: white;
+}
+
+.box{
+    height: 350px;
+    width: 19%;
+    background-color: #0b1e32;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.tredning_boxes{
+    background-color: #001428;
+    display: flex;
+    justify-content: space-evenly;
+}
+/* Trending boxes */
+.box_image{
+    width: 201px;
+    height: 201px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+
+}
+.color{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 0.5px rgb(174, 174, 236) solid;
+    margin-top: 6px;
+
+}
+.box_text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
